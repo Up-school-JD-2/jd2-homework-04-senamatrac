@@ -1,0 +1,41 @@
+[
+  {
+  "singer": "Adele",
+  "albums": [
+    {
+      "title":"19",
+      "year": "2015",
+      "songs": [
+        {"title": "First Love","length": "3:10"},
+        {"title": "My Same","length": "3:16"},
+        {"title": "First Love","length": "3:10"}]
+    },
+    {
+      "title":"21",
+      "year": "2011",
+      "songs": [
+        {"title": "Rolling in the deep","length": "3:48"},
+        {"title": "Someone like you","length": "4:45"},
+        {"title": "Love Song","length": "5:16"}]
+    }
+  ]},
+  {
+    "singer": "Bruno Mars",
+    "albums": [
+      {
+        "title":"Doo-Wops & Hooligans",
+        "year": "2010",
+        "songs": [
+          {"title": "Just the way you are","length": "3:58"},
+          {"title": "Somewhere in Brooklyn","length": "3:01"}]
+      },
+      {
+        "title":"Unorthodox Jukebox",
+        "year": "2012",
+        "songs": [
+          {"title": "Locked out of heave","length": "3:54"},
+          {"title": "If I knew","length": "2:13"}]
+      }
+    ]
+  }
+]
