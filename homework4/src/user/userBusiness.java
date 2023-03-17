@@ -2,5 +2,10 @@ package user;
 
 public class userBusiness {
 
-    //sepet
+    /*
+    * User
+    * Items - albums ? songs?
+    * */
+
+    //add item to cart
 }
