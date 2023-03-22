@@ -2,10 +2,19 @@ package musicStore;
 
 public class Store {
 
-    /*
-    * Albums[] albümler "19","21","Doo-Wops & Hooligans","Unorthodox Jukebox",
-    * */
+    private Album[] albums;
 
+    public Store(Album[] albums){
+        this.albums = albums;
+    }
+
+    public Album[] getAlbums() {
+        return albums;
+    }
+
+    public void setAlbums(Album[] albums) {
+        this.albums = albums;
+    }
     /*
     * Search Album Title
     * Search Song Title
