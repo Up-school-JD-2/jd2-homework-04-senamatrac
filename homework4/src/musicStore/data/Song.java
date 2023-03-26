@@ -1,25 +1,17 @@
-package musicStore;
+package musicStore.data;
 
-public class Song {
+import java.math.BigDecimal;
 
-    private String title;
+public class Song extends Item {
     private String duration;
-    private Singer singer;
     private Album album;
 
-    public Song(String title, String duration) {
-        this.title = title;
+    public Song(String title, BigDecimal price, String duration, Singer singer) {
+        super(singer,title,price, ItemType.Song);
         this.duration = duration;
     }
 
     //region GETTER - SETTER
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
 
     public String getDuration() {
         return duration;
@@ -35,6 +27,14 @@ public class Song {
 
     public void setAlbum(Album album) {
         this.album = album;
+    }
+
+    public Singer getSinger() {
+        return singer;
+    }
+
+    public void setSinger(Singer singer) {
+        this.singer = singer;
     }
     //endregion
 }
