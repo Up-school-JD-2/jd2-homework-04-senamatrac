@@ -20,6 +20,7 @@ public class Album extends Item {
     public Album(String title, String year,BigDecimal price,Singer singer, List<Song> songs){
         this(title,year,price,singer);
         this.songs = songs;
+        assignAlbum(songs);
     }
 
 
@@ -47,18 +48,18 @@ public class Album extends Item {
     public void setSongs(List<Song> songs) {
         this.songs = songs;
     }
-
-    private void setAlbumOfSongs(){
-        if (songs != null) {
-            for (Song s : songs){
-                s.setAlbum(this);
-            }
-        }
-    }
     //endregion
 
     public void addSong(Song song){
         songs.add(song);
+        song.setAlbum(this);
+    }
+
+    public void assignAlbum(List<Song> songs)
+    {
+        for (Song song : songs){
+            song.setAlbum(this);
+        }
     }
 
 
