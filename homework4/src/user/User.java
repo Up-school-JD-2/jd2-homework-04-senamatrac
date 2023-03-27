@@ -1,6 +1,6 @@
 package user;
 
-import Shopping.Cart;
+import shopping.Cart;
 
 import java.util.Objects;
 

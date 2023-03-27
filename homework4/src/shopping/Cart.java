@@ -1,4 +1,4 @@
-package Shopping;
+package shopping;
 
 import musicStore.data.Item;
 import user.User;
